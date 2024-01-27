@@ -1,0 +1,47 @@
+.banner {
+    width: 100%;
+    background-color: #fbfbfb;
+    padding-block: 70px 74px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.banner-content_info {
+    margin-left: 44px;
+}
+
+.banner-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+}
+
+.banner-title::after {
+    content: url(../../assets/coffee-icon.png);
+    position: absolute;
+    bottom: -20px;
+}
+
+.banner-text {
+    color: #4a5568;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.banner-img {
+    max-width: 476px;
+    width: 100%;
+}
+
+.banner-img img {
+    width: 100%;
+}

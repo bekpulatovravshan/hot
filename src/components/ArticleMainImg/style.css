@@ -1,0 +1,10 @@
+.article-img-wrapper {
+    max-width: 973px;
+    width: 100%;
+    height: 380px;
+    background-image: url(../../assets/article-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
